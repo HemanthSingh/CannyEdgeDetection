@@ -1,0 +1,87 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[english]{babel}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{cite}
+\usepackage{url}
+
+\usepackage[margin=1in]{geometry}
+
+\definecolor{mygray}{rgb}{0.4,0.4,0.4}
+\definecolor{mygreen}{rgb}{0,0.8,0.6}
+\definecolor{myorange}{rgb}{1.0,0.4,0}
+
+\definecolor{lightgray}{rgb}{.9,.9,.9}
+\definecolor{darkgray}{rgb}{.4,.4,.4}
+\definecolor{purple}{rgb}{0.65, 0.12, 0.82}
+
+\DeclareMathSizes{10}{10}{10}{10}
+
+\lstset{
+backgroundcolor=\color{lightgray},
+extendedchars=true,
+basicstyle=\footnotesize\ttfamily,
+showstringspaces=false,
+showspaces=false,
+numbers=left,
+numberstyle=\footnotesize,
+numbersep=9pt,
+tabsize=2,
+breaklines=true,
+showtabs=false,
+captionpos=b
+keywordstyle=\color{blue}\bfseries,
+ndkeywordstyle=\color{darkgray}\bfseries,
+identifierstyle=\color{black},
+commentstyle=\color{purple}\ttfamily,
+stringstyle=\color{red}\ttfamily,
+}
+
+\title{Embedded Lab Assignment 1 \\\small{Group 7}}
+\author{
+Haji Akhundov\\ \small{\textit{h.akhundov@student.tudelft.nl}}\\ \small{4390547} \and
+Misael Hernandez Leal\\ \small{\textit{m.a.hernandezleal@student.tudelft.nl}} \\ \small{4423615} \and
+Fei Tan\\ \small{\textit{f.tan@student.tudelft.nl}} \\ \small{4405722} \and
+Koray Yanik\\ \small{\textit{k.i.m.yanik@student.tudelft.nl}} \\ \small{4382781} \and
+Muneeb Yousaf\\ \small{\textit{m.m.yousaf@student.tudelft.nl}} \\ \small{4411129}
+}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\nocite{*}
+
+\begin{abstract}
+This report describes the implementation process of a highly parallelizable 
+reference application (matrix multiplication) on to an embedded system, using 
+a digital signal processor (DSP) and parallel computation extensions (SIMD) to 
+achieve a significant speedup over this reference implementation. The application was implemented in a TI processor that includes an ARM core with NEON support and a DSP, with a 1:1 load balance between the two processing units. At the maximum matrix size (128 by 128), we could achieve a speedup of more than 6. We describe
+the difficulties of working with this system, go into some depth about the 
+obtained speedup and discuss further improvements that could be made.
+
+\end{abstract}
+
+\newpage
+\tableofcontents
+
+\input{introduction}
+
+\input{integration}
+
+\input{dsp}
+
+\input{neon}
+
+\input{Analysis}
+
+\input{conclusion}
+
+\input{discussion}
+
+\bibliography{references}{}
+\bibliographystyle{unsrt}
+
+\end{document}

@@ -1,0 +1,13 @@
+\subsection{Optimization flags}
+\label{sec:flag}
+The following compiler flags are used to perform optimization during the compilation of the ARM source code:
+
+\begin{itemize}
+\item{\textit{O3:}} provides the highest level of optimization of code for the execution time and code size
+\item{\textit{mtune=cortex-a8:}} tunes the generated code to run faster on \emph{cortex-a8} than any other processor of same architecture
+\item{\textit{march=armv7-a:}} takes the CPU name \emph{armv7-a} and allows the gcc to generate a code that uses all the features of that family
+\item{\textit{mfloat-abi=softfp:}} specifies which floating point \emph{Application Binary Interface} (ABI)to use. By specifying \emph{mfloat-abi=softfp}, \emph{gcc} is allowed to generate code by using the hardware floating point units, but still using the \emph{soft-float} calling convention
+\item{\textit{mfpu=neon:}} specifies what floating-point hardware (or hardware emulation) is available on the target
+\end{itemize}
+
+Moreover, the following flags were used: \emph{ftree-vectorize}, \emph{ffast-math} and \emph{fomit-frame-pointer} Nevertheless, no additional benefit in terms of speedup was observed because they are implicitly enabled if the \emph{-O3} optimization flag is used. For DSP compilation \emph{-O3} flag was used.

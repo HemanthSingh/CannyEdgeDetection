@@ -1,0 +1,39 @@
+\section{Implementation}
+\label{sec:Implementation}
+\begin{figure}
+\centering
+\includegraphics[width=0.4\textwidth]{drawings/gaussian_general}
+\caption{Convolution process}
+\label{fig:convolution}
+\end{figure}
+
+Obtaining the results from profiling we see that approximately 80\% of the time is spent on executing the \textit{gaussian\_smooth} function. By observing the code of this function we see that it is divided into two for loops (also seen in profiling output in figure~\ref{fig:prof}).
+First the blurring is done by convolution in the X-direction and then in the Y-direction by applying the gaussian kernel (one dimensional convolution matrix). This process is briefly shown in figure~\ref{fig:convolution}. There is a data dependency between the two convolution processes where one must be followed by the other. This means that simply performing one convolution in one direction on one processing unit and the other direction on a different processor will not work.
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.4\textwidth]{drawings/gaussian_balancing}
+\caption{Splitting the work}
+\label{fig:balancing}
+\end{figure}
+
+
+The most naive way of splitting the work between two processors and obtaining a speed-up is to compute the gaussian filtering on both processors for different parts of the image. The most simplistic way with a 50/50 load balancing is depicted in figure~\ref{fig:balancing} where the NEON is performing the convolutions on the top part of the image and the DSP performs the convolutions on the bottom part of the image. As shown in the workflow diagram in figure~\ref{fig:workflow} we then proceed with the development of the gaussian filtering independently on each processor and later use clever techniques to split the computation between the two processors.
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.25\textwidth]{drawings/model}
+\caption{Data flow}
+\label{fig:dataflow}
+\end{figure}
+
+
+On the GPP side we define FRAC which is an integer value from zero to hundred that specifies the fraction of calculations that must be done on the NEON. After integrating both compute units and making them work in parallel, both instances of gaussian smoothing calculations were measured in time and a FRAC that resulted in an even balance between GPP and DSP was chosen. The optimal load balancing ratio was NEON:DSP = 35:65. Note that the two calculations have to be completed before the program can resume.
+Hence, by load balancing we make sure that the synchronization happens as soon as possible and very little time is wasted on waiting for the slower processor to finish. Figure~\ref{fig:dataflow} shows the resulting dataflow of the current implementation. The subsequent sections go into more details of this process.
+
+
+\input{dsp}
+\input{neon}
+\input{flag}

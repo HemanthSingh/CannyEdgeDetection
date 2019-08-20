@@ -1,0 +1,95 @@
+//Running baseline on ARM
+
+
+tiger:
+Gaussian Time = 177.097 msec
+Total Time = 237.216 msec
+
+square:
+Gaussian time = 71.983
+Total Time = 92.582
+
+klomp:
+g: 392.058
+t: 540.618
+
+
+
+//OUR IMPLEMENTATION
+
+
+
+square:
+---DSP execution time 5707 us.                                                                                 
+---NEON execution time 6776 us.                                                                                
+-----Sum execution time 38424 u
+
+
+tiger:
+---DSP execution time 14987 us.                                                                                
+---NEON execution time 16330 us.                                                                               
+-----Sum execution time 124747 us.  
+
+
+klomp:
+---DSP execution time 29388 us.                                                                                
+---NEON execution time 29510 us.                                                                              
+-----Sum execution time 284026 us. 
+
+
+
+
+
+//Running baseline on ARM with flags
+
+0: 0.003174, 208, 416, 
+1: 0.008981, 588, 1177, 
+2: 0.021651, 1418, 2837, 
+3: 0.044481, 2915, 5830, 
+4: 0.077871, 5103, 10206, 
+5: 0.116170, 7613, 15226, 
+6: 0.147681, 9678, 19356, 
+7: 0.159981, 10484, 20969, 
+8: 0.147681, 9678, 19356, 
+9: 0.116170, 7613, 15226, 
+10: 0.077871, 5103, 10206, 
+11: 0.044481, 2915, 5830, 
+12: 0.021651, 1418, 2837, 
+13: 0.008981, 588, 1177, 
+14: 0.003174, 208, 416, 
+15: 0.000000, 0, 0, 
+Gaussian Time = 80.657 msec
+Total Time = 107.512 msec
+
+
+///
+square	72.127 msec
+tiger	178.955 msec
+klomp	396.515 msec
+
+
+
+//Running baseline on PC
+
+0: 0.003174, 208, 416, 
+1: 0.008981, 588, 1177, 
+2: 0.021651, 1418, 2837, 
+3: 0.044481, 2915, 5830, 
+4: 0.077871, 5103, 10206, 
+5: 0.116170, 7613, 15226, 
+6: 0.147681, 9678, 19356, 
+7: 0.159981, 10484, 20969, 
+8: 0.147681, 9678, 19356, 
+9: 0.116170, 7613, 15226, 
+10: 0.077871, 5103, 10206, 
+11: 0.044481, 2915, 5830, 
+12: 0.021651, 1418, 2837, 
+13: 0.008981, 588, 1177, 
+14: 0.003174, 208, 416, 
+15: 0.000000, 0, 0, 
+
+Gaussian Time = 8.195 msec
+Total Time = 41.614 msec
+
+//WE NEED TO GET GAUSSIAN TIME FOR PURE DSP AND PURE NEON
+

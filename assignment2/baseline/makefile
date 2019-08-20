@@ -1,0 +1,68 @@
+# set the path to pin if not set in .bachrc
+PIN_DIR=$(PIN_ROOT)
+# set the path to mcprof if not set in .bachrc
+MCPROF_DIR=$(MCPROF_ROOT)
+
+# set the path to the toolchain
+CC =/data/usr/local/share/codesourcery/bin/arm-none-linux-gnueabi-gcc
+# use the following to compile application for PC
+#CC = gcc
+INC = -I.
+
+#CFLAGS =-O3 -Wall
+
+#-mtune=cortex-a8 -march=armv7-a -mfloat-abi=softfp -ftree-vectorize -ffast-math -fomit-frame-pointer -funroll-loops -mfpu=neon
+
+
+CFLAGS =-O3 -Wall -mfpu=vfp
+LFLAGS = -L.
+LIBS = -lm
+LDFLAGS=
+
+CSRCS 	= canny_edge.c hysteresis.c pgm_io.c Timer.c
+OBJS	=$(CSRCS:%.c=%.o)
+
+# Use one of the following pictures
+PIC	=./pics/klomp.pgm
+# PIC	=./pics/square.pgm
+# PIC	=./pics/tiger.pgm
+
+EXEC    = canny
+CMD	= ./$(EXEC) $(PIC)
+
+all: clean $(EXEC) run
+
+$(EXEC) : $(OBJS)
+	$(CC) $(OBJS) -o $(EXEC) $(LFLAGS) $(LDFLAGS) $(LIBS)
+
+%.o : %.c
+	$(CC) $(CFLAGS) $(INCS) -c $< -o $@ 
+
+run: $(EXEC) $(PIC)
+	$(CMD)
+
+debug: CFLAGS= -g -Wall
+debug: clean $(EXEC) $(PIC)
+	gdb --args $(CMD)
+
+gprof: CFLAGS=-O2 -g -pg -Wall
+gprof: LDFLAGS=-pg
+gprof: clean $(EXEC)
+	$(CMD)
+	gprof -b $(EXEC)> gprof.txt
+
+MCPROF_OPT:=-RecordStack 0  -TrackObjects 1 -Engine 1 -TrackStartStop 1 -StaticSymbols 0 -TrackZones 1 -Threshold 100
+mcprof: CFLAGS= -O1 -g -fno-inline -fno-omit-frame-pointer -Wall
+mcprof: clean $(EXEC)
+	$(PIN_DIR)/pin -t $(MCPROF_DIR)/obj-intel64/mcprof.so $(MCPROF_OPT) -- $(CMD)
+	$(MCPROF_DIR)/scripts/dot2pdf.sh communication.dot
+	$(MCPROF_DIR)/scripts/plotScript.sh
+
+clean:
+	rm -f $(EXEC) $(OBJS) *~ gmon.out pin.log
+
+send:	$(EXEC)
+	scp $(EXEC) hbeagle:~/esLAB/$(EXEC)
+	#scp $(EXEC) root@192.168.0.202:/home/root/esLAB/$(EXEC)
+
+.PHONY: clean canny run all debug gprof mcprof

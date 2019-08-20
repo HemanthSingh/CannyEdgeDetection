@@ -1,0 +1,8 @@
+Debug
+Release
+*.h62
+*.s62
+*.cdb
+matMultcfg_c.c
+matMultcfg.h
+matMultcfg.cmd

@@ -1,0 +1,28 @@
+ This table can be sorted by Total Accesses (-k2) by using bash command:
+    tail -n +7 memProfile.out | sort -k2 -gr
+
+                               Function Name 	 ================= Accesses  ============  Allocation
+                                                      Total         Reads       Writes       Path
+                         ==========================================================================
+                                   UnknownFtn        913123        781491        131632  :0
+                                magnitude_x_y        240000        160000         80000  :0
+                              derrivative_x_y   1.12044e+06        960217        160224  :0
+                         make_gaussian_kernel          1696          1432           264  :0
+                              gaussian_smooth           200           120            80  :0
+                                        canny           349           269            80  :0
+                                         main           121            89            32  :0
+                                 follow_edges         29155         26552          2603  :0
+                             apply_hysteresis        517929        308660        209269  :0
+                                 non_max_supp        589939        536724         53215  :0
+                              write_pgm_image            32            32             0  :0
+                                        Obj23        588800        588800             0  pgm_io.c:72
+                                        Obj24   4.71058e+06   4.71046e+06           120  canny_edge.c:527
+                                        Obj25    2.5152e+06    2.3552e+06        160000  canny_edge.c:448
+                                        Obj26        400000        320000         80000  canny_edge.c:454
+                             gaussian_smooth1     3.104e+06     2.944e+06        160000  :0
+                             gaussian_smooth2    4.7904e+06    4.7104e+06         80000  :0
+                                        Obj29        210406        130406         80000  canny_edge.c:390
+                                        Obj30        258228        178228         80000  canny_edge.c:394
+                                        Obj31        482654        402654         80000  canny_edge.c:229
+                                        Obj32         93215         40000         53215  canny_edge.c:242
+                                        Obj33        222056        141256         80800  canny_edge.c:253

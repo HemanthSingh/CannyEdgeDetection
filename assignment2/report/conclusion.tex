@@ -1,0 +1,13 @@
+\section{Conclusion}
+\label{sec:Conclusion}
+ In this report we have described the optimization process of a sequential image processing algorithm on a heterogeneous system with multiple processing units.
+By profiling the reference application we were able to focus our attention on the most compute intensive function of the reference application.
+
+At first we simply implemented that function on each available processing core independently and performed timing measurements. By applying minor changes to the code, the two cores were merged together to work in parallel.
+By timing each of the calculations independently, the workload among the two available processing units were properly balanced.
+
+This lead to the minimization the idle time of a processor that waits for the other one for synchronization purpose to continue execution.
+Throughout the development many optimization techniques were experimented with such as compiler flags, manual loop unrolling etc.
+Eventually a speedup of a factor of two and above was achieved. 
+
+Due to the nature of optimizations some errors were introduced in the results. Nevertheless after extensive error analysis it was concluded that the errors are negligible and hence acceptable. Several other methods and techniques could be used to further increase the speedup which are mentioned in the future work section.

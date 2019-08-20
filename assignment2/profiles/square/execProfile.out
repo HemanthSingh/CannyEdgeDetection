@@ -1,0 +1,25 @@
+   %Exec.Instr.		Function Name
+  ===============================================
+             38		gaussian_smooth1
+             38		gaussian_smooth2
+              8		apply_hysteresis
+              7		non_max_supp
+              2		magnitude_x_y
+              2		derrivative_x_y
+              0		follow_edges
+              0		make_gaussian_kernel
+              0		canny
+              0		gaussian_smooth
+              0		main
+              0		write_pgm_image
+              0		printTimer
+              0		stopTimer
+              0		restartTimer
+              0		startTimer
+              0		clearTimer
+              0		initTimer
+              0		write_ppm_image
+              0		read_ppm_image
+              0		read_pgm_image
+              0		radian_direction
+              0		angle_radians

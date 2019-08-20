@@ -1,0 +1,15 @@
+\section{Introduction}
+
+The purpose of this assignment is to improve a sequential version of an image processing algorithm on a multi-core heterogeneous computing platform provided. The given platform is the Beagle Board\footnote{http://beagleboard.org/} that has a general purpose ARM processor (from now on referred to as the \emph{GPP}) and a digital signal processor (\emph{DSP}) that would be utilized in this lab for the edge detection algorithm and eventually obtaining a speed up by performing computations in parallel. 
+
+	Figure~\ref{fig:workflow} shows the reader the overall approach to this problem and the basic work flow that we adhered to. In this report we will go through describing each component in the flow diagram presented. We would also discuss the communication model that was used to communicate the necessary data in the heterogeneous environment, and see that the communication model (i.e. shared memory) used here has little overhead and imposes almost no additional delays when compared to the communication model (i.e. message passing) that was utilized in the previous lab.
+
+The application profiling has made a great impact on steering our decisions as we will see in \hyperref[sec:profiling]{Section~\ref{sec:profiling}}. Furthermore every core has a hardware limitation in terms of how many operations can be performed at the same time, which defines the upper bound on how much speed-up can be obtained. The description about the implementation on DSP and NEON is presented in \hyperref[sec:Implementation]{Section~\ref{sec:Implementation}}. The results along with the corresponding error analysis are presented in the analysis section (\hyperref[sec:analysis]{Section~\ref{sec:analysis}}). \hyperref[sec:Conclusion]{Section~\ref{sec:Conclusion}} concludes all the work that we have done. Lastly, further improvements that could potentially improve the execution speed of the application are discussed in \hyperref[sec:Future Work]{Section~\ref{sec:Future Work}}.
+
+\begin{figure*}
+\includegraphics[width=\linewidth]{drawings/workflow}
+\caption{General approach to the problem}
+\label{fig:workflow}
+\end{figure*}
+
+

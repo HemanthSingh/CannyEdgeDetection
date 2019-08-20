@@ -1,0 +1,102 @@
+\documentclass[10pt,final,journal]{IEEEtran}
+\usepackage[english]{babel}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{hyperref}
+
+\graphicspath{{./images/}}
+
+\usepackage[margin=1in]{geometry}
+
+\definecolor{mygray}{rgb}{0.4,0.4,0.4}
+\definecolor{mygreen}{rgb}{0,0.8,0.6}
+\definecolor{myorange}{rgb}{1.0,0.4,0}
+
+\definecolor{lightgray}{rgb}{.9,.9,.9}
+\definecolor{darkgray}{rgb}{.4,.4,.4}
+\definecolor{purple}{rgb}{0.65, 0.12, 0.82}
+
+\DeclareMathSizes{10}{10}{10}{10}
+
+\lstset{
+backgroundcolor=\color{lightgray},
+extendedchars=true,
+basicstyle=\footnotesize\ttfamily,
+showstringspaces=false,
+showspaces=false,
+numbers=left,
+numberstyle=\footnotesize,
+numbersep=9pt,
+tabsize=2,
+breaklines=true,
+showtabs=false,
+captionpos=b
+keywordstyle=\color{blue}\bfseries,
+ndkeywordstyle=\color{darkgray}\bfseries,
+identifierstyle=\color{black},
+commentstyle=\color{purple}\ttfamily,
+stringstyle=\color{red}\ttfamily,
+}
+
+\title{Embedded Lab Assignment 2\\\small{Group 7}}
+\author{
+		\IEEEauthorblockN{
+			Haji~Akhundov\IEEEauthorrefmark{1}
+			Misael~Hernandez~Leal\IEEEauthorrefmark{2}
+			Fei~Tan\IEEEauthorrefmark{3}
+			Koray~Yanik\IEEEauthorrefmark{4}
+			Muneeb~Yousaf\IEEEauthorrefmark{5}
+		}
+
+		\IEEEauthorblockA{
+			\IEEEauthorrefmark{1}h.akhundov@student.tudelft.nl			\small{4390547} \and
+			\IEEEauthorrefmark{2}m.a.hernandezleal@student.tudelft.nl 	\small{4423615} \and 	\\
+			\IEEEauthorrefmark{3}f.tan@student.tudelft.nl 				\small{4405722} \and
+			\IEEEauthorrefmark{4}k.i.m.yanik@student.tudelft.nl 		\small{4382781} \and 	\\
+			\IEEEauthorrefmark{5}m.m.yousaf@student.tudelft.nl 			\small{4411129}
+		}
+}
+
+\date{\today}
+
+\begin{document}
+
+\nocite{*}
+
+\maketitle
+
+\begin{abstract}
+This report describes the optimization process of an existing sequential image processing algorithm, namely edge detection on a heterogeneous system with multiple processing units.
+
+Given the reference application, the code is modified such that it runs on an embedded platform, utilizing a digital signal processor  and parallel computation extensions to achieve a speedup over a purely sequential reference implementation.
+Specifically the application was implemented on a TI processor that includes an ARM core with NEON support and a DSP.
+
+Profiling the reference application shows that 80\% of the processing time is spent in the gaussian filtering function. Further investigation revealed that the work load of this function could be distributed over the available processing units.
+By carefully load balancing this function among the available processing units, a speedup of a factor of two and above was achieved.
+
+\end{abstract}
+
+\input{introduction}
+
+\input{profiling}
+
+\input{implementation}
+
+\input{Analysis}
+
+\input{conclusion}
+
+\input{discussion}
+
+%\bibliography{references}{}
+%\bibliographystyle{unsrt}
+
+\end{document}

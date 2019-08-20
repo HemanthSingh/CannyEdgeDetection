@@ -1,0 +1,20 @@
+========== Matrix Multiplication ==========
+root@192.168.0.202's password:                                                                         Entered helloDSP_Create ()
+helloDSP.out                                                        100%  363KB 362.6KB/s   00:01        Executable loaded onto DSP!
+Compiling Debug...                                                                                       DSP opened a message queue named "DSPMSGQ"
+Compiling Release...                                                                                   Leaving helloDSP_Create ()
+scp Release/helloDSPgpp root@192.168.0.202:/home/root/esLAB/helloDSP/.                                 Entered helloDSP_Execute ()
+root@192.168.0.202's password:                                                                         
+helloDSPgpp                                                         100%  121KB 121.2KB/s   00:00      Timing information:
+ubuntu@bbubuntu:~/Desktop/Embedded-Lab/assignment1/src$ ./upload.sh                                    
+Building DSP/BIOS file...                                                                              Total execution time = 40.673 msec
+Compiling Debug...                                                                                     Total execution time (w/o comm oh.) = 38.019 msec
+<Linking>                                                                                              Serial execution time = 75.428 msec
+Compiling Release...                                                                                   Verification:
+<Linking>                                                                                              SUCCESS!
+scp Release/helloDSP.out root@192.168.0.202:/home/root/esLAB/helloDSP/.                                
+root@192.168.0.202's password:                                                                         Transferring 5 iterations took 0 seconds 119610 microseconds.
+helloDSP.out                                                          0%    0     0.0KB/s   --:-- ETA  RoundTrip Time for 1 message is 23922 microseconds.
+helloDSP.out                                                        100%  363KB 362.6KB/s   00:01      Leaving helloDSP_Execute ()
+Compiling Debug...                                                                                     Entered helloDSP_Delete ()
+Compiling Release...                                                                                   Leaving helloDSP_Delete ()

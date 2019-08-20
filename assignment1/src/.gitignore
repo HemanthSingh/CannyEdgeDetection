@@ -1,0 +1,5 @@
+*.o
+matMult
+dsp/helloDSPcfg.cmd
+dsp/helloDSPcfg.h
+dsp/helloDSPcfg_c.c

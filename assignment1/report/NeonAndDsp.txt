@@ -1,0 +1,22 @@
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 9.705 msec
+Total execution time (w/o comm oh.) = 7.629 msec
+Serial execution time = 78.186 msec
+Verification: 
+SUCCESS!
+
+Transferring 5 iterations took 0 seconds 91767 microseconds.
+RoundTrip Time for 1 message is 18353 microseconds.
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================

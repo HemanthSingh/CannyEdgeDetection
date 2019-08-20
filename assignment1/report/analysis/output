@@ -1,0 +1,4607 @@
+Testing for 1
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.656 msec
+Total execution time (w/o comm oh.) = 0.672 msec
+Serial execution time = 0.031 msec
+Neon execution time = 0.03 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 2
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.655 msec
+Total execution time (w/o comm oh.) = 0.641 msec
+Serial execution time = 0 msec
+Neon execution time = 0 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 3
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.655 msec
+Total execution time (w/o comm oh.) = 0.641 msec
+Serial execution time = 0.031 msec
+Neon execution time = 0.03 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 4
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.716 msec
+Total execution time (w/o comm oh.) = 0.763 msec
+Serial execution time = 0 msec
+Neon execution time = 0 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 5
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.655 msec
+Total execution time (w/o comm oh.) = 0.641 msec
+Serial execution time = 0.03 msec
+Neon execution time = 0 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 6
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.625 msec
+Total execution time (w/o comm oh.) = 0.641 msec
+Serial execution time = 0.03 msec
+Neon execution time = 0 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 7
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.655 msec
+Total execution time (w/o comm oh.) = 0.641 msec
+Serial execution time = 0.031 msec
+Neon execution time = 0.031 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 8
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.777 msec
+Total execution time (w/o comm oh.) = 0.641 msec
+Serial execution time = 0.031 msec
+Neon execution time = 0 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 9
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.655 msec
+Total execution time (w/o comm oh.) = 0.671 msec
+Serial execution time = 0.031 msec
+Neon execution time = 0.031 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 10
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.655 msec
+Total execution time (w/o comm oh.) = 0.671 msec
+Serial execution time = 0.03 msec
+Neon execution time = 0.061 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 11
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.746 msec
+Total execution time (w/o comm oh.) = 0.671 msec
+Serial execution time = 0.061 msec
+Neon execution time = 0.03 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 12
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.655 msec
+Total execution time (w/o comm oh.) = 0.64 msec
+Serial execution time = 0.061 msec
+Neon execution time = 0.031 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 13
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.716 msec
+Total execution time (w/o comm oh.) = 0.733 msec
+Serial execution time = 0.091 msec
+Neon execution time = 0.061 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 14
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.777 msec
+Total execution time (w/o comm oh.) = 0.702 msec
+Serial execution time = 0.092 msec
+Neon execution time = 0.061 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 15
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.685 msec
+Total execution time (w/o comm oh.) = 0.671 msec
+Serial execution time = 0.122 msec
+Neon execution time = 0.061 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 16
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.807 msec
+Total execution time (w/o comm oh.) = 0.732 msec
+Serial execution time = 0.122 msec
+Neon execution time = 0.061 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 17
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.746 msec
+Total execution time (w/o comm oh.) = 0.702 msec
+Serial execution time = 0.152 msec
+Neon execution time = 0.091 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 18
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.716 msec
+Total execution time (w/o comm oh.) = 0.702 msec
+Serial execution time = 0.153 msec
+Neon execution time = 0.122 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 19
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.717 msec
+Total execution time (w/o comm oh.) = 0.702 msec
+Serial execution time = 0.153 msec
+Neon execution time = 0.183 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 20
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.746 msec
+Total execution time (w/o comm oh.) = 0.732 msec
+Serial execution time = 0.153 msec
+Neon execution time = 0.122 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 21
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.716 msec
+Total execution time (w/o comm oh.) = 0.733 msec
+Serial execution time = 0.244 msec
+Neon execution time = 0.184 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 22
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.777 msec
+Total execution time (w/o comm oh.) = 0.763 msec
+Serial execution time = 0.213 msec
+Neon execution time = 0.183 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 23
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.746 msec
+Total execution time (w/o comm oh.) = 0.762 msec
+Serial execution time = 0.275 msec
+Neon execution time = 0.183 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 24
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.747 msec
+Total execution time (w/o comm oh.) = 0.763 msec
+Serial execution time = 0.366 msec
+Neon execution time = 0.183 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 25
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.808 msec
+Total execution time (w/o comm oh.) = 0.763 msec
+Serial execution time = 0.366 msec
+Neon execution time = 0.244 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 26
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.838 msec
+Total execution time (w/o comm oh.) = 0.702 msec
+Serial execution time = 0.336 msec
+Neon execution time = 0.274 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 27
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.807 msec
+Total execution time (w/o comm oh.) = 0.793 msec
+Serial execution time = 0.428 msec
+Neon execution time = 0.336 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 28
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.868 msec
+Total execution time (w/o comm oh.) = 0.793 msec
+Serial execution time = 0.427 msec
+Neon execution time = 0.244 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 29
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.838 msec
+Total execution time (w/o comm oh.) = 0.824 msec
+Serial execution time = 0.519 msec
+Neon execution time = 0.336 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 30
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.838 msec
+Total execution time (w/o comm oh.) = 0.824 msec
+Serial execution time = 0.518 msec
+Neon execution time = 0.305 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 31
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.869 msec
+Total execution time (w/o comm oh.) = 0.855 msec
+Serial execution time = 0.611 msec
+Neon execution time = 0.305 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 32
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.838 msec
+Total execution time (w/o comm oh.) = 0.824 msec
+Serial execution time = 0.611 msec
+Neon execution time = 0.335 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 33
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.899 msec
+Total execution time (w/o comm oh.) = 0.885 msec
+Serial execution time = 0.702 msec
+Neon execution time = 0.488 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 34
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.9 msec
+Total execution time (w/o comm oh.) = 0.855 msec
+Serial execution time = 0.702 msec
+Neon execution time = 0.457 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 35
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.052 msec
+Total execution time (w/o comm oh.) = 0.885 msec
+Serial execution time = 0.824 msec
+Neon execution time = 0.488 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 36
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.93 msec
+Total execution time (w/o comm oh.) = 0.885 msec
+Serial execution time = 0.854 msec
+Neon execution time = 0.488 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 37
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.96 msec
+Total execution time (w/o comm oh.) = 0.916 msec
+Serial execution time = 0.977 msec
+Neon execution time = 0.611 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 38
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 2.96 msec
+Total execution time (w/o comm oh.) = 0.946 msec
+Serial execution time = 0.976 msec
+Neon execution time = 0.61 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 39
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.021 msec
+Total execution time (w/o comm oh.) = 0.977 msec
+Serial execution time = 1.13 msec
+Neon execution time = 0.61 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 40
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.021 msec
+Total execution time (w/o comm oh.) = 1.007 msec
+Serial execution time = 1.13 msec
+Neon execution time = 0.733 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 41
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.265 msec
+Total execution time (w/o comm oh.) = 1.037 msec
+Serial execution time = 1.282 msec
+Neon execution time = 0.763 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 42
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.144 msec
+Total execution time (w/o comm oh.) = 1.008 msec
+Serial execution time = 1.281 msec
+Neon execution time = 0.763 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 43
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.052 msec
+Total execution time (w/o comm oh.) = 1.038 msec
+Serial execution time = 1.465 msec
+Neon execution time = 0.885 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 44
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.082 msec
+Total execution time (w/o comm oh.) = 1.068 msec
+Serial execution time = 1.465 msec
+Neon execution time = 0.762 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 45
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.204 msec
+Total execution time (w/o comm oh.) = 1.129 msec
+Serial execution time = 1.709 msec
+Neon execution time = 1.037 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 46
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.143 msec
+Total execution time (w/o comm oh.) = 1.099 msec
+Serial execution time = 1.77 msec
+Neon execution time = 1.007 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 47
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.205 msec
+Total execution time (w/o comm oh.) = 1.19 msec
+Serial execution time = 1.892 msec
+Neon execution time = 1.069 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 48
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.234 msec
+Total execution time (w/o comm oh.) = 1.19 msec
+Serial execution time = 2.044 msec
+Neon execution time = 1.007 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 49
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.357 msec
+Total execution time (w/o comm oh.) = 1.313 msec
+Serial execution time = 2.167 msec
+Neon execution time = 1.221 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 50
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.327 msec
+Total execution time (w/o comm oh.) = 1.342 msec
+Serial execution time = 2.166 msec
+Neon execution time = 1.251 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 51
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.326 msec
+Total execution time (w/o comm oh.) = 1.343 msec
+Serial execution time = 2.442 msec
+Neon execution time = 1.251 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 52
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.387 msec
+Total execution time (w/o comm oh.) = 1.373 msec
+Serial execution time = 2.441 msec
+Neon execution time = 1.251 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 53
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.571 msec
+Total execution time (w/o comm oh.) = 1.434 msec
+Serial execution time = 2.746 msec
+Neon execution time = 1.587 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 54
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.54 msec
+Total execution time (w/o comm oh.) = 1.495 msec
+Serial execution time = 2.747 msec
+Neon execution time = 1.495 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 55
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.54 msec
+Total execution time (w/o comm oh.) = 1.495 msec
+Serial execution time = 3.082 msec
+Neon execution time = 1.618 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 56
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.54 msec
+Total execution time (w/o comm oh.) = 1.496 msec
+Serial execution time = 3.082 msec
+Neon execution time = 1.648 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 57
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.602 msec
+Total execution time (w/o comm oh.) = 1.587 msec
+Serial execution time = 3.479 msec
+Neon execution time = 1.831 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 58
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.631 msec
+Total execution time (w/o comm oh.) = 1.617 msec
+Serial execution time = 3.479 msec
+Neon execution time = 1.801 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 59
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.724 msec
+Total execution time (w/o comm oh.) = 1.679 msec
+Serial execution time = 3.784 msec
+Neon execution time = 10.621 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 60
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.754 msec
+Total execution time (w/o comm oh.) = 1.679 msec
+Serial execution time = 3.875 msec
+Neon execution time = 1.922 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 61
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.907 msec
+Total execution time (w/o comm oh.) = 1.862 msec
+Serial execution time = 4.272 msec
+Neon execution time = 2.075 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 62
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.815 msec
+Total execution time (w/o comm oh.) = 1.77 msec
+Serial execution time = 4.18 msec
+Neon execution time = 2.167 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 63
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.998 msec
+Total execution time (w/o comm oh.) = 1.831 msec
+Serial execution time = 4.639 msec
+Neon execution time = 2.136 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 64
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 3.937 msec
+Total execution time (w/o comm oh.) = 1.862 msec
+Serial execution time = 4.791 msec
+Neon execution time = 2.106 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 65
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 4.028 msec
+Total execution time (w/o comm oh.) = 1.984 msec
+Serial execution time = 5.432 msec
+Neon execution time = 2.624 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 66
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 4.09 msec
+Total execution time (w/o comm oh.) = 2.045 msec
+Serial execution time = 5.432 msec
+Neon execution time = 2.624 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 67
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 4.211 msec
+Total execution time (w/o comm oh.) = 2.105 msec
+Serial execution time = 6.164 msec
+Neon execution time = 2.685 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 68
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 4.334 msec
+Total execution time (w/o comm oh.) = 2.137 msec
+Serial execution time = 6.195 msec
+Neon execution time = 2.625 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 69
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 4.303 msec
+Total execution time (w/o comm oh.) = 2.228 msec
+Serial execution time = 7.202 msec
+Neon execution time = 3.052 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 70
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 4.273 msec
+Total execution time (w/o comm oh.) = 2.228 msec
+Serial execution time = 7.171 msec
+Neon execution time = 3.052 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 71
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 4.425 msec
+Total execution time (w/o comm oh.) = 2.381 msec
+Serial execution time = 8.118 msec
+Neon execution time = 3.083 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 72
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 4.638 msec
+Total execution time (w/o comm oh.) = 2.349 msec
+Serial execution time = 8.087 msec
+Neon execution time = 2.991 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 73
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 4.73 msec
+Total execution time (w/o comm oh.) = 2.533 msec
+Serial execution time = 9.125 msec
+Neon execution time = 3.692 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 74
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 4.577 msec
+Total execution time (w/o comm oh.) = 2.533 msec
+Serial execution time = 9.125 msec
+Neon execution time = 3.541 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 75
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 4.822 msec
+Total execution time (w/o comm oh.) = 2.686 msec
+Serial execution time = 10.254 msec
+Neon execution time = 3.479 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 76
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 4.731 msec
+Total execution time (w/o comm oh.) = 2.686 msec
+Serial execution time = 10.315 msec
+Neon execution time = 3.479 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 77
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 4.943 msec
+Total execution time (w/o comm oh.) = 2.899 msec
+Serial execution time = 11.444 msec
+Neon execution time = 4.089 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 78
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 5.036 msec
+Total execution time (w/o comm oh.) = 2.838 msec
+Serial execution time = 11.474 msec
+Neon execution time = 4.09 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 79
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 5.066 msec
+Total execution time (w/o comm oh.) = 2.991 msec
+Serial execution time = 12.787 msec
+Neon execution time = 4.029 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 80
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 5.127 msec
+Total execution time (w/o comm oh.) = 2.991 msec
+Serial execution time = 12.756 msec
+Neon execution time = 4.151 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 81
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 5.311 msec
+Total execution time (w/o comm oh.) = 3.174 msec
+Serial execution time = 14.069 msec
+Neon execution time = 4.761 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 82
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 5.31 msec
+Total execution time (w/o comm oh.) = 3.174 msec
+Serial execution time = 14.16 msec
+Neon execution time = 4.761 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 83
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 5.493 msec
+Total execution time (w/o comm oh.) = 3.387 msec
+Serial execution time = 15.778 msec
+Neon execution time = 4.669 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 84
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 5.462 msec
+Total execution time (w/o comm oh.) = 3.387 msec
+Serial execution time = 15.747 msec
+Neon execution time = 4.609 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 85
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 5.646 msec
+Total execution time (w/o comm oh.) = 3.571 msec
+Serial execution time = 17.334 msec
+Neon execution time = 5.372 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 86
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 5.707 msec
+Total execution time (w/o comm oh.) = 3.571 msec
+Serial execution time = 17.395 msec
+Neon execution time = 5.218 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 87
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 5.768 msec
+Total execution time (w/o comm oh.) = 3.723 msec
+Serial execution time = 19.104 msec
+Neon execution time = 5.279 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 88
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 5.921 msec
+Total execution time (w/o comm oh.) = 3.784 msec
+Serial execution time = 19.226 msec
+Neon execution time = 5.371 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 89
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 6.042 msec
+Total execution time (w/o comm oh.) = 3.997 msec
+Serial execution time = 21.088 msec
+Neon execution time = 6.134 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 90
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 6.042 msec
+Total execution time (w/o comm oh.) = 3.997 msec
+Serial execution time = 21.118 msec
+Neon execution time = 6.164 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 91
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 6.317 msec
+Total execution time (w/o comm oh.) = 4.211 msec
+Serial execution time = 23.194 msec
+Neon execution time = 6.317 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 92
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 6.347 msec
+Total execution time (w/o comm oh.) = 4.272 msec
+Serial execution time = 23.193 msec
+Neon execution time = 6.104 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 93
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 6.5 msec
+Total execution time (w/o comm oh.) = 4.456 msec
+Serial execution time = 25.33 msec
+Neon execution time = 6.927 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 94
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 6.531 msec
+Total execution time (w/o comm oh.) = 4.455 msec
+Serial execution time = 25.299 msec
+Neon execution time = 6.866 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 95
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 6.744 msec
+Total execution time (w/o comm oh.) = 4.73 msec
+Serial execution time = 27.588 msec
+Neon execution time = 6.867 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 96
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 6.836 msec
+Total execution time (w/o comm oh.) = 4.731 msec
+Serial execution time = 27.648 msec
+Neon execution time = 6.805 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 97
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 7.019 msec
+Total execution time (w/o comm oh.) = 4.974 msec
+Serial execution time = 29.907 msec
+Neon execution time = 7.69 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 98
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 7.049 msec
+Total execution time (w/o comm oh.) = 4.974 msec
+Serial execution time = 29.938 msec
+Neon execution time = 7.782 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 99
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 7.324 msec
+Total execution time (w/o comm oh.) = 5.218 msec
+Serial execution time = 32.349 msec
+Neon execution time = 7.721 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 100
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 7.294 msec
+Total execution time (w/o comm oh.) = 5.188 msec
+Serial execution time = 32.44 msec
+Neon execution time = 7.66 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 101
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 7.537 msec
+Total execution time (w/o comm oh.) = 5.462 msec
+Serial execution time = 34.973 msec
+Neon execution time = 11.841 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 102
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 7.568 msec
+Total execution time (w/o comm oh.) = 5.463 msec
+Serial execution time = 34.973 msec
+Neon execution time = 8.606 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 103
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 7.812 msec
+Total execution time (w/o comm oh.) = 5.767 msec
+Serial execution time = 37.781 msec
+Neon execution time = 8.576 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 104
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 7.904 msec
+Total execution time (w/o comm oh.) = 5.768 msec
+Serial execution time = 46.966 msec
+Neon execution time = 8.972 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 105
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 8.118 msec
+Total execution time (w/o comm oh.) = 6.043 msec
+Serial execution time = 40.527 msec
+Neon execution time = 9.766 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 106
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 8.118 msec
+Total execution time (w/o comm oh.) = 6.012 msec
+Serial execution time = 40.589 msec
+Neon execution time = 9.43 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 107
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 8.422 msec
+Total execution time (w/o comm oh.) = 6.347 msec
+Serial execution time = 43.548 msec
+Neon execution time = 9.583 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 108
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 8.514 msec
+Total execution time (w/o comm oh.) = 6.317 msec
+Serial execution time = 43.549 msec
+Neon execution time = 9.491 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 109
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 8.789 msec
+Total execution time (w/o comm oh.) = 6.653 msec
+Serial execution time = 46.478 msec
+Neon execution time = 10.559 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 110
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 8.851 msec
+Total execution time (w/o comm oh.) = 6.684 msec
+Serial execution time = 46.509 msec
+Neon execution time = 10.498 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 111
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 9.125 msec
+Total execution time (w/o comm oh.) = 6.989 msec
+Serial execution time = 49.591 msec
+Neon execution time = 10.529 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 112
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 9.033 msec
+Total execution time (w/o comm oh.) = 6.989 msec
+Serial execution time = 49.622 msec
+Neon execution time = 10.528 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 113
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 9.46 msec
+Total execution time (w/o comm oh.) = 7.416 msec
+Serial execution time = 52.734 msec
+Neon execution time = 11.718 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 114
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 9.491 msec
+Total execution time (w/o comm oh.) = 7.446 msec
+Serial execution time = 53.497 msec
+Neon execution time = 11.628 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 115
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 9.949 msec
+Total execution time (w/o comm oh.) = 7.752 msec
+Serial execution time = 57.495 msec
+Neon execution time = 11.719 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 116
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 9.797 msec
+Total execution time (w/o comm oh.) = 7.752 msec
+Serial execution time = 56.122 msec
+Neon execution time = 11.627 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 117
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 10.162 msec
+Total execution time (w/o comm oh.) = 8.087 msec
+Serial execution time = 59.51 msec
+Neon execution time = 12.787 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 118
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 10.163 msec
+Total execution time (w/o comm oh.) = 8.087 msec
+Serial execution time = 59.54 msec
+Neon execution time = 13.184 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 119
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 10.529 msec
+Total execution time (w/o comm oh.) = 8.484 msec
+Serial execution time = 63.355 msec
+Neon execution time = 12.787 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 120
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 18.31 msec
+Total execution time (w/o comm oh.) = 16.235 msec
+Serial execution time = 63.416 msec
+Neon execution time = 12.909 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 121
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 10.925 msec
+Total execution time (w/o comm oh.) = 8.881 msec
+Serial execution time = 66.65 msec
+Neon execution time = 14.13 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 122
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 10.955 msec
+Total execution time (w/o comm oh.) = 8.88 msec
+Serial execution time = 66.711 msec
+Neon execution time = 14.038 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 123
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 11.353 msec
+Total execution time (w/o comm oh.) = 9.278 msec
+Serial execution time = 70.313 msec
+Neon execution time = 14.038 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 124
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 11.322 msec
+Total execution time (w/o comm oh.) = 9.278 msec
+Serial execution time = 70.739 msec
+Neon execution time = 14.069 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 125
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 11.841 msec
+Total execution time (w/o comm oh.) = 9.704 msec
+Serial execution time = 74.463 msec
+Neon execution time = 14.984 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 126
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 11.78 msec
+Total execution time (w/o comm oh.) = 9.705 msec
+Serial execution time = 74.31 msec
+Neon execution time = 14.923 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 127
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 12.177 msec
+Total execution time (w/o comm oh.) = 10.132 msec
+Serial execution time = 78.217 msec
+Neon execution time = 14.954 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================
+
+Testing for 128
+==== LPM OFF Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_off
+app: LPM_close
+==== All Done ====
+
+==== LPM ON Test ====
+app: LPM_open
+app: LPM_set(LPM_CTRL_REFCOUNTOVR)
+app: LPM_on
+app: LPM_close
+==== All Done ====
+
+========== Matrix Multiplication ==========
+Entered helloDSP_Create ()
+  Executable loaded onto DSP! 
+  DSP opened a message queue named "DSPMSGQ" 
+Leaving helloDSP_Create ()
+Entered helloDSP_Execute ()
+
+Timing information:
+
+Total execution time = 12.238 msec
+Total execution time (w/o comm oh.) = 10.162 msec
+Serial execution time = 78.339 msec
+Neon execution time = 14.954 msec
+Verification: 
+SUCCESS!
+
+Leaving helloDSP_Execute ()
+Entered helloDSP_Delete ()
+Leaving helloDSP_Delete ()
+====================================================

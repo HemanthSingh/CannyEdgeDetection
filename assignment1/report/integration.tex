@@ -1,0 +1,256 @@
+\section{Implementation}
+With limited knowledge in the hardware architecture of this platform and its capabilities our team has decided to start off by experimenting with different cores individually and then writing the software in an incremental manner such that some improvement is made towards reaching the goal. Furthermore due to the fact that the communication API (\emph{MSGQ API}) of the DSP/BIOS is not trivial we are given a reference \emph{helloDSP} application on which we would do all the incremental changes.
+Our current design uses a 1:1 load balancing where half of the product is calculated on one core and the other half on a different core. Each core respectively utilizes it's parallel components. Later sections in the report provide more details and other schemes that are possible with the design.
+
+\subsection{DSP}
+The \emph{OMAP3530} GPP contains a \emph{TMS320} DSP (\emph{DSP})\cite{gpp-refman}. This
+core is optimized for using multiple calculation channels simultaneously: it is
+a \emph{VLIW} (Very Long Instruction Word) processor that can utilize eight
+functional units at the same time. More specifically, we can use six ALUs and
+two multipliers per instruction. Another interesting feature is that each
+multiplier can perform two 16 x 16-bit multiplications as well\cite{dsp-refman}, giving us
+potentially four multiplications in parallel.
+
+The GPP unit is responsible for starting up the DSP core, giving it an executable to run
+and afterwards detaching the core. Furthermore, the requirements specified
+that the matrices to multiply are generated on the GPP core (which is
+of course not a bad idea because the GPP is way more flexible: it can easily
+be changed to read the matrices from a file or standard input, and we can
+offload a part of the work to the GPP itself making use of the \emph{NEON} as we
+will discuss later as well).
+
+\subsection{Communication}
+This however brings us to one complication: the matrices have to be moved to
+the DSP core, while the (partial) end result has to be sent back to the GPP.
+Our first goal is thus to set up communications and send matrices back and forth
+between the two cores.
+
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{images/gpp_dsp_com}
+\caption{Describing the communication process between the cores over time}
+\label{fig:gpp_dsp_com}
+\end{figure}
+
+Unfortunately the communication API is slightly verbose and hard to handle.
+For example, the sender has to allocate memory for a message, send it and the
+receiver has the possibility to send it back, or free the message. If we opted
+for the latter and re-allocate every message we would always crash the DSP core.
+The former option would mean that if we wanted to send more than one message
+directly from the GPP, the DSP would have to send the entire message back first.
+We however observed that the communication overhead is negligible, so we
+decided to always re-use the same message. The general communication time-line
+is described in figure~\ref{fig:gpp_dsp_com}. One observation in this time-line
+is that we send data six times. The reason why will be discussed in the next
+section.
+
+\subsubsection{Message Format}
+We used the existing reference communication implementation and it's message
+structure, but we extended it with our own matrices and an extra field that
+indicates how big the resulting matrix should be. One thing we had to do
+was determine the maximum matrix size we could assign, such that it would fit
+in one message. This message would be stored inside a section of
+\emph{APP\_BUFFER\_SIZE} large, thus our message structure has to fit in there.
+This buffer was $16768$ bytes on our system.
+Removing the (negligible) overhead of $279$ bytes our payload limit is $16489$ bytes.
+
+The source matrices are 16 bit, but the result should be at least 32 bits.
+To accommodate for both
+situations in the same control message structure while optimally using our
+message in a uniform way, we opted to use a \emph{union} structure so we
+can either send two 16 bit matrices or one 32 bit matrix at a time. The
+structure is given in figure~\ref{code:control_msg}.
+
+Because we have to send up to $128*128*2*2=65536$ (2 matrices of 16 bits)
+bytes from the GPP to the DSP, we need at least four messages considering
+our bandwidth limit of $16489$ bytes. Thus we send the source in four messages,
+each containing a quarter of both matrices. The DSP only calculates a half of
+the result matrix, making two messages sufficient: this results in six
+communication steps.
+
+\begin{figure}[h]
+\begin{lstlisting}[language=C]
+struct mat2x16 {
+	int16_t mat1[SIZE][SIZE];
+	int16_t mat2[SIZE][SIZE];
+};
+
+struct mat32 {
+	int32_t mat1[SIZE][SIZE];
+};
+
+typedef union {
+	struct mat2x16 m16;
+	struct mat32 m32;
+} mat_t;
+
+#define ARG_SIZE 256
+typedef struct ControlMsg
+{
+    MSGQ_MsgHeader header;	// 20 bytes
+    Uint16 command;					// 2 bytes
+    Char arg1[ARG_SIZE];		// 256 bytes
+    Uint8 size;							// 1 byte
+    mat_t mat;							// 4 * SIZE * SIZE bytes
+} ControlMsg;
+\end{lstlisting}
+\caption{The message structure we used during the communication}
+\label{code:control_msg}
+\end{figure}
+
+
+\subsubsection{Communication Details}
+This section describes the communication model in more detail.
+
+Figure~\ref{fig:gpp_dsp_com} shows how packets are communicated between the two cores. Initially the GPP gets an AWAKE message from the DSP indicating that communication is established and further actions may begin.
+Then we initiate the transfer of data (multiplicand and multiplier matrices) to DSP. 
+
+Since the packet is fixed in size and not dynamic (as described in the section above) and the actual matrix size is $\leq 128$ we have decided to fill in the allocated matrix of size 128 with the given size matrix as shown on the right hand side of the figure in order not to over complicate the process.
+So in the next four iterations the GPP sends a quarter of every matrix to the DSP along with the size of the data matrices since the DSP must know what is being multiplied from the received matrices of size 128. 
+
+As soon as the GPP sends the fourth message (\emph{MSG 4}) it immediately begins to calculate the partial product. Similarly as soon as the DSP receives the fourth (final) message it begins doing its partial product calculation and initiates \emph{MSGQ\_put()} which places the first half of the partial product onto the communication channel (\emph{Result 1}) followed by the next message (\emph{Result 2}). On the other hand, the GPP initiates a \emph{MSGQ\_get()} action as soon as it is done with its calculations to receive Result 1 and 2 from DSP and stitch the product together.
+
+In order to examine the results (that are presented later in this report) we put timers in the appropriate places. The first timer is put immediately after the generation of multiplicand and multiplier matrices and before \emph{MSG 1} is being transmitted such that to take into account the communication overhead and measure the entire execution time.
+
+The second timer is placed immediately after \emph{MSG 4} is send. The second timer gives us the upper-bound on $max(ARM, DSP)$ execution times while neglecting the communication time as much as possible. Both timers are stopped as soon as the calculations are done and the first packet from the DSP (Result 1) is received. In the analysis we would be focusing more on the first timer.
+
+Also note that there are many different possibilities to place the timers however we figured timer 1 is optimal as it incorporates most of delays, and provides good insight when doing analysis.
+
+\subsection{NEON}
+To improve the performance of media and signal processing, 
+\emph{NEON} SIMD technology is implemented in the \emph{Cortex-A8} core of the \emph{OMAP 3530} GPP. 
+\emph{NEON} SIMD technology, which is also known as Advanced SIMD extension, 
+takes the advantage of parallel operation to achieve the speed-up.
+\subsubsection{NEON Technology} 
+To understand NEON technology, the idea of SIMD is introduced at first. 
+SIMD (Single Instruction Multiple Data) describes a way to perform the same operation on multiple data with same type and size in a single instruction. 
+The idea of parallel operation comes from the fact that multimedia applications, such as graphics processing, became popular for desktop computers and a necessity for embedded systems such as smartphones. Since the computing power of the processors used in those systems was not enough at one point to fully support such applications, SIMD extensions such as NEON and MMX became part of the instruction set.
+
+NEON technology, such as the Advanced SIMD extension in \emph{Cortex-A8}, performs SIMD operations in group. 
+NEON instructions operate on vectors stored in 64-bit or 128-bit registers, 
+then vectors of elements with same type can perform the same operation on multiple items at the same time.
+Figure~\ref{fig:neon} shows how multiple items are computed simultaneously. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{images/neon}
+\caption{Parallel computing based on NEON}
+\label{fig:neon}
+\end{figure}
+
+\paragraph{Hardware Features}
+~\\
+The NEON architecture has the following features\cite{hardware}:
+\begin{enumerate}
+\item \emph{16-Entry instruction queue}
+\item \emph{32 x 64-bit general purpose registers in register file.}
+These registers can alternatively be viewed as 16 x 128-bit registers
+\item \emph{6-stage execution pipeline.}
+NEON supports either integer or single precision floating point execute pipeline.
+\item \emph{Load/store and permute pipeline}
+\item \emph{12-Entry load data queue}
+\end{enumerate}
+
+\subsubsection{Preparation}
+To enable the built-in intrinsics of NEON, 
+\emph{$-$mfpu$=$neon}\cite{ARMoptions} is used during compiling time.
+Also, the header file \emph{arm\_neon.h} is included 
+to support NEON intrinsics in the c file.
+In our case, the incoming message contains the matrix with data of 16-bit wide, 
+and then after calculation, when the final outcome is sending back to GPP, the data size is 32-bit to avoid overflow.
+In the following section, NEON intrinsics that are used for parallel computing in our experiment are explained.
+
+\paragraph{Vector Data Type}
+~\\
+Neon defined its own data type\cite{DataType} for multiple data operation, the format is given as:
+~\\ 
+\textbf{ \textless type\textgreater \textless size\textgreater x\textless number of lanes\textgreater\_t}
+
+For example, the data type we are going to use in NEON is \emph{uint32x4\_t}, 
+which means the vector has four lanes, 
+with each of the them containing an unsigned 32-bit integer. 
+
+\paragraph{NEON Intrinsics}
+~\\
+NEON intrinsics \cite{Intrinsics} provide groups of functions for operation. 
+In our case, functions related to load, multiplication and addition are used. 
+\begin{enumerate}
+\item \textbf{int32x4\_t  vmovq\_n\_s32(int32\_t value)}
+
+This intrinsic loads all lanes of vector to the same input value. 
+The input value is a signed 32-bit integer, 
+while each of the four lanes being loaded contain a signed 32-bit as well. This function is used to initialize or set the partial products to zero.
+
+\item \textbf{int32x4\_t  vmov\_n\_s16(int16\_t value)}
+
+This intrinsic loads all lanes of a vector to the same input value. 
+The input value is a signed 16-bit integer, 
+while each of the four lanes being loaded contain a signed 16-bit as well. With this intrinsic we can load a single data from the first matrix, to be multiplied by a row of the second matrix.
+
+\item \textbf{int16x4\_t   vld1\_s16(\_\_transfersize(4) int16\_t const * ptr)}
+
+This intrinsic loads four values from memory to all lanes, starting from the address referenced by the pointer.
+The data stored in memory is signed 16-bit integer, 
+while each of the four lanes contain a signed 16-bit integer. We load a full row (in groups of 4) of the second matrix with this intrinsic.
+
+\item \textbf{int32x4\_t   vmlal\_s16(int32x4\_t a, int16x4\_t b, int16x4\_t c)}
+
+This intrinsic multiplies b by c, and accumulates the result with a in all four lanes. The final results are then stored in four lanes as well.
+
+
+\item \textbf{void  vst1q\_s32(\_\_transfersize(4) int32\_t * ptr, int32x4\_t val)}
+
+This intrinsic stores a 32-bit vector of 4 lanes into memory starting from the address referenced by the pointer. It is used to store the computations into the results matrix, 4 values at a time.
+
+\end{enumerate}
+
+\subsubsection{Multiplication Algorithm}
+
+In order to fully utilize the Neon resources, we have used following algorithm to compute the matrix multiplication. The following illustration shows one rows of results.
+The input matrices are following:
+
+$$
+\begin{pmatrix}
+ x_{1} 	& \color{red}{x_{2}} 	& \color{green}{x_{3}}	& \color{blue}{x_{4}}\\
+ x_{5} 	& x_{6} 				& x_{7}					& x_{8}\\
+ x_{9} 	& x_{10} 				& x_{11}				& x_{12}\\
+ x_{13} & x_{14} 				& x_{15}				& x_{16}\\
+\end{pmatrix}
+\times
+\begin{pmatrix}
+y_{1} 	& y_{2} 	& y_{3} 	& y_{4} 	\\
+y_{5} 	& y_{6} 	& y_{7} 	& y_{8} 	\\
+y_{9} 	& y_{10} 	& y_{11} 	& y_{12} 	\\
+y_{13}	& y_{14} 	& y_{15} 	& y_{16} 	\\
+\end{pmatrix}
+$$
+
+
+The output matrix would be :
+=
+\begin{table}[h]
+	\resizebox{\textwidth}{!}{
+		$\left(
+			\begin{tabular}{cccc}
+				 $ x_{1}y_{1}	+					\color{red}{x_{2}}y_{5} 	\color{black}{+} 	\color{green}{x_{3}} 	y_{9}\color{black}{+} 	\color{blue}{x_{4}}y_{13} $
+				&$ x_{1}y_{2}	\color{black}{+}	\color{red}{x_{2}}y_{6} 	\color{black}{+} 	\color{green}{x_{3}} 	y_{1}0\color{black}{+}	\color{blue}{x_{4}}y_{14} $
+				&$ x_{1}y_{3} 	\color{black}{+} 	\color{red}{x_{2}}y_{7} 	\color{black}{+} 	\color{green}{x_{3}} 	y_{1}1\color{black}{+}	\color{blue}{x_{4}}y_{15} $
+				&$ x_{1}y_{4} 	\color{black}{+} 	\color{red}{x_{2}}y_{8} 	\color{black}{+} 	\color{green}{x_{3}} 	y_{1}2\color{black}{+}	\color{blue}{x_{4}}y_{16} $ \\
+				-&-&-&-\\
+				-&-&-&-\\
+				-&-&-&-\\
+			\end{tabular}
+		\right)$
+	}
+\end{table}
+
+In the output matrix, the elements with the same color are multiplied by the Neon at the same time. In this way, Neon produces the results of 4 multiplications at the same time. In the output row above, x1y1, x1y2, x1y3 and x1y4 are produced by the neon simultaneously. However, these are just the partial results for the first row of output matrix. In order to get the complete results for the first row these partial results should be added to the other partial results of the same row. This complete task of multiplication and addition is done by using \emph{Multiplication and Addition} functional unit of neon. The conceptual diagram of this multiplication and addition is shown in figure~\ref{fig:neon_mult_add}.
+
+\begin{figure}[h]
+\centering 
+\includegraphics[width= 0.7\textwidth]{images/MandA}
+\caption{Parallel Multiplication and Addition with Neon  }
+\label{fig:neon_mult_add}
+\end{figure}
+
+\subsection{Verification}
+As soon as the DSP+NEON calculations are performed and the results are obtained, two additional calculations are initiated using plain serial computation and NEON only computation and all three products that were obtained are checked with each other to output a 'Success' or 'Failure' respectively. Furthermore the mentioned executions are measured to facilitate performance analysis later.

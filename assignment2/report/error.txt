@@ -1,0 +1,17 @@
+square:
+mean squared error 1: 10643.083984
+mean squared error 2: 10906.207031
+mean squared error difference: 263.123047
+error rate: 0.024722
+
+tiger:
+mean squared error 1: 46683.480469
+mean squared error 2: 46678.214844
+mean squared error difference: 5.265625
+error rate: 0.000113
+
+klomp:
+mean squared error 1: 20535.517578
+mean squared error 2: 20509.070312
+mean squared error difference: 26.447266
+error rate: 0.001288

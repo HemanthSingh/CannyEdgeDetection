@@ -1,0 +1,15 @@
+Compiling
+=========
+Either use the upload.sh script for convenience, or make (and make send) both the gpp and dsp files manually.
+
+Running
+=======
+The 'test.sh' script can be uploaded to the executable directory as well and run. This will run the program for matrix sizes 1 to 128 automatically to test.
+
+You can also run it yourself the normal way. The parameters have been altered to the following:
+
+	./helloDSP helloDSP.out <matrix_size>
+
+or upload the modified 'run.sh' script and run it like:
+
+	./run.sh <matrix_size>

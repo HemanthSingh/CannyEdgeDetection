@@ -1,0 +1,8 @@
+\section{Future Work}
+\label{sec:Future Work}
+Several changes could be made to the current application that could possibly improve the results even more.
+First of all, further optimization are possible within the DSP and the NEON block. 
+For instance in NEON, floating point calculations are used at the moment. But more speedup can be achieved by using fixed-point calculations because in general fixed-point calculations are faster than floating-point calculations.
+Secondly, other functions could possibly be computed in parallel as well.
+i.e. The \textit{non\_max\_supp() \& apply\_hysteresis()} are the next computationally intensive applications taking 8\% and 5\% each respectively.
+Even more, simply utilizing NEON in those functions could potentially speed up the overall implementation.
